@@ -32,13 +32,6 @@ To get a local copy up and running follow these simple example steps.
 
 ## Run Tests
 
-```
-npx eslint .
-```
-```
-npx stylelint "**/*.{css,scss}"
-```
-
 ## Author:
 
 ￼ **Toluwase Ajise**
