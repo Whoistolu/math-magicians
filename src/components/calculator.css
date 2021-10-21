@@ -1,0 +1,42 @@
+.container {
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 25%;
+}
+
+.cScreen {
+  background-color: rgba(124, 120, 120, 0.568);
+  text-align: right;
+  height: 2em;
+  padding: 0.4em;
+  font-size: 1.4em;
+  color: #fff;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0.1rem;
+  grid-row-gap: 0.1rem;
+  background-color: rgb(230, 223, 223);
+}
+
+button {
+  border: none;
+  padding: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons .orange-button {
+  background-color: rgb(240, 157, 62);
+}
+
+.buttons .double-space {
+  grid-column: span 2;
+  width: 100%;
+}
+
+button.orange-button {
+  background-color: rgb(223, 205, 171);
+}
