@@ -30,7 +30,7 @@ class Calculator extends React.Component {
           <button type="button">2</button>
           <button type="button">3</button>
           <button className="orange-button" type="button">+</button>
-          <button className="double" type="button">0</button>
+          <button className="double-space" type="button">0</button>
           <button type="button">.</button>
           <button className="orange-button" type="button">=</button>
         </div>
