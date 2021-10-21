@@ -15,7 +15,7 @@
 - Visual Studio Code
 
 ## Screenshot
-![Screenshot](img/ui.png)
+![Screenshot](./img/ui.png)
 
 ## Live Demo
 
