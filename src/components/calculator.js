@@ -15,6 +15,20 @@ class Calculator extends React.Component {
   };
 
   render() {
+    const buttonNames = ['AC', '+/-', '%', '\u00F7', '7', '8', '9', '\u00D7',
+      '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
+
+    const generateClassName = (button) => {
+      if (button === '\u00F7' || button === '\u00D7' || button === '-' || button === '+' || button === '=') {
+        return 'orange-button';
+      }
+
+      if (button === '0') {
+        return 'double-space';
+      }
+      return '';
+    };
+
     const { next, total, operation } = this.state;
     let result = '';
     if (total) {
@@ -28,25 +42,7 @@ class Calculator extends React.Component {
           {result}
         </div>
         <div className="buttons">
-          <button onClick={this.whenClicked} type="button">AC</button>
-          <button onClick={this.whenClicked} type="button">+/-</button>
-          <button onClick={this.whenClicked} type="button">%</button>
-          <button onClick={this.whenClicked} className="orange-button" type="button">&divide;</button>
-          <button onClick={this.whenClicked} type="button">7</button>
-          <button onClick={this.whenClicked} type="button">8</button>
-          <button onClick={this.whenClicked} type="button">9</button>
-          <button onClick={this.whenClicked} className="orange-button" type="button">&times;</button>
-          <button onClick={this.whenClicked} type="button">4</button>
-          <button onClick={this.whenClicked} type="button">5</button>
-          <button onClick={this.whenClicked} type="button">6</button>
-          <button onClick={this.whenClicked} className="orange-button" type="button">-</button>
-          <button onClick={this.whenClicked} type="button">1</button>
-          <button onClick={this.whenClicked} type="button">2</button>
-          <button onClick={this.whenClicked} type="button">3</button>
-          <button onClick={this.whenClicked} className="orange-button" type="button">+</button>
-          <button onClick={this.whenClicked} className="double-space" type="button">0</button>
-          <button onClick={this.whenClicked} type="button">.</button>
-          <button onClick={this.whenClicked} className="orange-button" type="button">=</button>
+          {buttonNames.map((button) => (<button key={button} className={generateClassName(button)} onClick={this.whenClicked} type="button">{button}</button>))}
         </div>
       </div>
     );
