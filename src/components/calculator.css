@@ -1,7 +1,10 @@
 .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
   margin: 0 auto;
   margin-top: 10rem;
-  width: 25%;
+  width: 100%;
 }
 
 .cScreen {

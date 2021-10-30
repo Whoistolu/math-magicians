@@ -1,10 +1,18 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styles from './Header.module.css';
+
 const Header = () => (
-  <Header>
+  <header className={styles.header}>
     <h1>Math Magicians</h1>
-    <p>Home</p>
-    <p>Calculator</p>
-    <p>Quotes</p>
-  </Header>
+    <nav>
+      <ul>
+        <Link to="/">Home</Link>
+        <Link to="/calculator">Calculator</Link>
+        <Link to="/quote">Quote</Link>
+      </ul>
+    </nav>
+  </header>
 );
 
 export default Header;
