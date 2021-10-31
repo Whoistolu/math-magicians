@@ -45,7 +45,7 @@ button {
 }
 
 .buttons .double-space {
-  grid-column: span 2
+  grid-column: span 2;
 }
 
 button.orange-button {
