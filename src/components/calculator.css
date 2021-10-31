@@ -3,8 +3,17 @@
   justify-content: space-around;
   align-items: flex-start;
   margin: 0 auto;
-  margin-top: 10rem;
+  margin-top: 2rem;
   width: 100%;
+}
+
+.container h1 {
+  color: blue;
+  font-size: 2rem;
+}
+
+.main-calc {
+  width: 40%;
 }
 
 .cScreen {
@@ -37,7 +46,6 @@ button {
 
 .buttons .double-space {
   grid-column: span 2;
-  width: 100%;
 }
 
 button.orange-button {

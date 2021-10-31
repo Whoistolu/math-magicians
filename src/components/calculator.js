@@ -35,7 +35,7 @@ const Calculator = () => {
   return (
     <div className="container">
       <h1>Let&apos;s do some Maths</h1>
-      <div>
+      <div className="main-calc">
         <div className="cScreen">
           {result}
         </div>

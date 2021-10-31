@@ -20,3 +20,7 @@
   transition-property: border, background-color;
   border-bottom: 2px solid transparent;
 }
+
+.header nav ul link:hover {
+  color: red;
+}
