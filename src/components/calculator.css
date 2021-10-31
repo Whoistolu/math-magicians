@@ -7,6 +7,15 @@
   width: 100%;
 }
 
+.container h1 {
+  color: rgb(240, 157, 62);
+  font-size: 2rem;
+}
+
+.main-calc {
+  width: 40%;
+}
+
 .cScreen {
   background-color: rgba(124, 120, 120, 0.568);
   text-align: right;
@@ -36,8 +45,7 @@ button {
 }
 
 .buttons .double-space {
-  grid-column: span 2;
-  width: 100%;
+  grid-column: span 2
 }
 
 button.orange-button {
