@@ -15,8 +15,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
+    "build": "cross-env PUBLIC_URL=/ react-scripts build",
+    "predeploy": "npm run build-github",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
