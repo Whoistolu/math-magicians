@@ -17,9 +17,9 @@
 ## Screenshot
 ![Screenshot](./img/ui.png)
 
-## Live Demo
+## Live Demo heroku
 
-[Live Link]()
+[Live Link](https://math-magicians-deployment.herokuapp.com/)
 
 
 ## Getting Started
