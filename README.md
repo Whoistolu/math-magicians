@@ -20,7 +20,7 @@
 ## Live Demo heroku
 
 [Live Link](https://math-magicians-deployment.herokuapp.com/)
-https://angry-golick-34dffb.netlify.app/
+
 
 ## Live Demo Netlify
 
