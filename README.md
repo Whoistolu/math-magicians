@@ -15,7 +15,9 @@
 - Visual Studio Code
 
 ## Screenshot
-![Screenshot](./img/ui.png)
+![Screenshot](./img/m.png)
+![Screenshot](./img/n.png)
+![Screenshot](./img/mn.png)
 
 ## Heroku Live Demo
 
