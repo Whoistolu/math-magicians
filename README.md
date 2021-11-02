@@ -17,12 +17,12 @@
 ## Screenshot
 ![Screenshot](./img/ui.png)
 
-## Live Demo heroku
+## Heroku Live Demo
 
 [Live Link](https://math-magicians-deployment.herokuapp.com/)
 
 
-## Live Demo Netlify
+## Netlify Live Demo
 
 [Live Link](https://angry-golick-34dffb.netlify.app/)
 
